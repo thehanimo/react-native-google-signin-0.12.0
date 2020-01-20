@@ -109,6 +109,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 9FD355091D3E4A2900D06170;
@@ -223,11 +224,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/**",
 				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../../react-native/React/**",
-					"${SRCROOT}/../../../ios/**",
-				);
+				HEADER_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
